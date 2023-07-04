@@ -1,0 +1,132 @@
+
+
+
+.header-area {
+  background: #ddd;
+}
+.logo-area a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #fff;
+  /*! display: inline-block; */
+  /*! padding: 10px; */
+}
+.logo-area {
+  display: inline-block;
+  background: #333;
+  padding: 10px 10px 15px;
+}
+.menu-area ul {
+  margin: 0;
+  padding: 0;
+  /*! display: inline-block; */
+  list-style: none;
+}
+.menu-area ul li {
+  display: inline-block;
+  margin: 26px;
+}
+.menu-area ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300px;
+}
+.menu-area ul li a:hover {
+  color: #333;
+}
+.bar-menu.text-right {
+  display: inline-block;
+  margin: 26px;
+  font-size: 20px;
+  color: #333;
+}
+.bar-menu i.fa-bars {
+  color: #333;
+}
+
+
+.off-canvas-menu {
+  position: fixed;
+  background: #111;
+  width: 269px;
+  height: 100%;
+  top: 0px;
+  right: 0;
+  display: block;
+  align-items: left;
+}
+.off-canvas-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.off-canvas-menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1.5em;
+  display: block;
+  padding: 38px 0 21px;
+  padding-left: 45px;
+  transition: 0.3s;
+}
+.off-canvas-menu li {
+  text-align: left;
+  /*! top: 48px; */
+}
+
+
+.off-canvas-menu {
+  position: fixed;
+  background: #111;
+  width: 269px;
+  height: 100%;
+  top: 0px;
+  right: 0;
+  display: block;
+  align-items: left;
+  transform: translateX(100%);
+}
+
+.off-canvas-menu.active {
+  transform: translateX(0);
+}
+
+
+.off-canvas-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.off-canvas-menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1.5em;
+  display: block;
+  padding: 38px 0 21px;
+  padding-left: 45px;
+  transition: 0.3s;
+}
+.off-canvas-menu li {
+  text-align: left;
+  /*! top: 48px; */
+}
+
+.off-canvas-menu li a:hover {
+  background: #fff;
+  color: #333;
+}
+
+
+.close-btn {
+  position: absolute;
+  left: 0%;
+  margin-top: 2px;
+  padding-left: 11px;
+  font-size: 25px;
+}
+
+.close-btn:hover {
+  color: #fff;
+  cursor: pointer;
+}

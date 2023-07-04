@@ -1,0 +1,102 @@
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus, input:focus, button:focus, textarea:focus {
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+
+.expend-bg {
+    background-image: url(../image/box-bg.jpg);
+  }
+  
+  .expend-bg-2 {
+    background-image: url(../image/box-bg-2.jpg);
+  }
+  .expend-bg-3 {
+    background-image: url(../image/box-bg-3.jpg);
+  }
+  .expend-bg-4 {
+    background-image: url(../image/box-bg-4.jpg);
+  }
+  .expend-bg-5 {
+    background-image: url(../image/box-bg-5.jpg);
+  }
+  .expend-bg-6 {
+    background-image: url(../image/doctor-3.jpg);
+  }
+  .expend-bg-7 {
+    background-image: url(../image/nora2.png);
+  }
+
+  
+
+
+  .flex-box {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .panel.active {
+    flex-grow: 5;
+    transition: 0.3s;
+  }
+  
+
+.panel {
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  float: left;
+  margin: 8px;
+  flex: 0.5;
+  cursor: pointer;
+}
+
+
+ 
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+ 
+

@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+.panel {
+    background-size: auto 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 0.5;
+    height: 80vh;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.panel.active {
+    flex: 5;
+    transition: 0.3s;
+}
+
+
+
+
+
+.expend-bg {
+    background-image: url(../image/box-bg.jpg);
+  }
+  
+  .expend-bg-2 {
+    background-image: url(../image/box-bg-2.jpg);
+  }
+  .expend-bg-3 {
+    background-image: url(../image/box-bg-3.jpg);
+  }
+  .expend-bg-4 {
+    background-image: url(../image/box-bg-4.jpg);
+  }
+  .expend-bg-5 {
+    background-image: url(../image/box-bg-5.jpg);
+  }
+  .expend-bg-6 {
+    background-image: url(../image/doctor-3.jpg);
+  }

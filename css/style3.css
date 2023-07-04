@@ -1,0 +1,82 @@
+
+
+
+.slide-bg-1 {
+  background-image: url(../image/bg-1.jpg);
+}
+
+.slide-bg-1:after {
+  background: #2467ec;
+  background: -moz-linear-gradient(45deg,  #2467ec 0%, #2fd8fb 100%);
+  background: -webkit-linear-gradient(45deg,  #2467ec 0%,#2fd8fb 100%);
+  background: linear-gradient(45deg,  #2467ec 0%,#2fd8fb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2467ec', endColorstr='#2fd8fb',GradientType=1 );
+
+}
+
+
+html, body {
+  height: 100%;
+}
+.single-slide-item {
+  height: 100%;
+  display: table;
+  width: 100%;
+  opacity: 0.9;
+  position: relative;
+  z-index: 1;
+}
+.single-slide-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  z-index: -1;
+}
+.slide-item-wrapper {
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.8em;
+}
+.slide-item-wrapper h2 {
+  color: #fff;
+  font-size: 65px;
+  line-height: 75px;
+}
+
+.slide-bg-1 {
+  background-image: url(../image/bg-1.jpg);
+}
+
+.slide-bg-1:after {
+  background: #2467ec;
+  background: -moz-linear-gradient(45deg,  #2467ec 0%, #2fd8fb 100%);
+  background: -webkit-linear-gradient(45deg,  #2467ec 0%,#2fd8fb 100%);
+  background: linear-gradient(45deg,  #2467ec 0%,#2fd8fb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2467ec', endColorstr='#2fd8fb',GradientType=1 );
+
+}
+.video-play-btn {
+  height: 60px;
+  width: 60px;
+  display: block;
+  background-color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  color: #000;
+}
+
+
+
+  
+
+
+
+
